@@ -1,0 +1,7 @@
+127.0.0.1 - - [12/Jan/2025:10:00:55 +0100] "GET /manager/ HTTP/1.1" 302 -
+127.0.0.1 - - [12/Jan/2025:10:00:55 +0100] "GET /manager/html HTTP/1.1" 401 2562
+127.0.0.1 - tomcat_8 [12/Jan/2025:10:01:02 +0100] "GET /manager/html HTTP/1.1" 200 19873
+127.0.0.1 - - [12/Jan/2025:10:03:15 +0100] "GET /myapp-0.1-dev/ HTTP/1.1" 404 705
+127.0.0.1 - - [12/Jan/2025:10:03:18 +0100] "GET /myapp-0.1-dev/ControllerServletMBeanReader HTTP/1.1" 200 149
+127.0.0.1 - - [12/Jan/2025:10:06:39 +0100] "GET /myapp-0.1-dev/ControllerServletMBeanReader HTTP/1.1" 200 170
+127.0.0.1 - - [12/Jan/2025:10:28:50 +0100] "GET /myapp-0.1-dev/ControllerServletMBeanReader HTTP/1.1" 200 170
