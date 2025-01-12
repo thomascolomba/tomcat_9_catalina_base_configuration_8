@@ -28,7 +28,7 @@ public class MyBean {
   private String foo2 = "Default Foo2 from MyBean.java";
   private String foo3 = "Default Foo3 from MyBean.java";
 
------------- webapp, ControllerServletMBeanReader.java
+------------ webapp, ControllerServletBeanReader.java
 public void init() throws ServletException {
 	// Do required initialization
 	try {
