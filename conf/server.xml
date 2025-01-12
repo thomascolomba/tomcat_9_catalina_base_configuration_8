@@ -181,16 +181,7 @@
                prefix="localhost_access_log" suffix=".txt"
                pattern="%h %l %u %t &quot;%r&quot; %s %b" />
 		
-		<!-- C:\\apache\\tomcat\\catalina_bases\\tomcat_9_catalina_base_configuration_7\\source_code\\mymbeanreader\\dist\\myapp-0.1-dev.war -->
 		<Context docBase="myapp-0.1-dev.war">
-		  <!-- <Resource name="bean/MyBeanFactory" auth="Container"
-					type="com.mycompany.mypackage.MyBean"
-					factory="org.apache.naming.factory.BeanFactory"
-					bar="23"/> -->
-			<!-- <resource-ref>
-			  <res-ref-name>bean/MyBeanFactoryDefinedInContext</res-ref-name>
-			  <jndi-name>jbean/MyBeanFactory</jndi-name>
-			</resource-ref> -->
 			<ResourceLink name="bean/MyBeanFactoryDefinedInContext"
             global="bean/MyBeanFactory"
             type="com.mycompany.packageofmybean.MyBean"/>
